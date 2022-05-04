@@ -132,7 +132,7 @@ def merge(n1, n2):
 
 
 '''Q6: Is Prime'''
-
+#TODO:reminder
 def is_prime(n):
     """Returns True if n is a prime number and False otherwise.
 
