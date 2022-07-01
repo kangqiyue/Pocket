@@ -1,11 +1,12 @@
-# LINUX command
+# LINUX basic
 
 * 打包：
 
         tar -czf small.tar.gz pdbfiles/
         tar -czf file_name.tar.gz file_name
         tar -xvf file_name.tar
-        ref：https://www.pendrivelinux.com/how-to-open-a-tar-file-in-unix-or-linux/
+
+ref：https://www.pendrivelinux.com/how-to-open-a-tar-file-in-unix-or-linux/
 
 * nohug
 
@@ -37,7 +38,6 @@
 
 * cenos
 
-
         rpm -q centos-linux-release $ rpm -q centos-release
 
         :
@@ -46,8 +46,7 @@
         package $ is not installed
         rpm-4.14.2-37.el8.x86_64
         centos-release-8.2-2.2004.0.1.el8.x86_64
+ref: https://linuxpip.org/fix-apt-get-command-not-found/
 
-        https://linuxpip.org/fix-apt-get-command-not-found/
-        https://itsfoss.com/unable-to-locate-package-error-ubuntu/
+https://itsfoss.com/unable-to-locate-package-error-ubuntu/
 
-        
