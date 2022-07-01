@@ -30,6 +30,7 @@ shell是运行command，shell脚本的command-line interface，Shell有多种，
 
 
 **Difference between sh and bash:** 
+
 |                        bash                       |                  sh                       |
 |:-------------------------------------------------:|:-----------------------------------------:|
 | Bourne Again SHell                                | SHell                                     |
