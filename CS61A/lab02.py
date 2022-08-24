@@ -128,15 +128,14 @@ def composer(f, g):
 def composite_identity(f, g):
     """
     Return a function with one parameter x that returns True if f(g(x)) is
-    equal to g(f(x)). You can assume the result of g(x) is a valid input for f
+    equal to g(f(x)). You can assu00000000000000000me the result of g(x) is a valid input for f
     and vice versa.
 
     >>> add_one = lambda x: x + 1        # adds one to x
     >>> square = lambda x: x**2
     >>> b1 = composite_identity(square, add_one)
     >>> b1(0)                            # (0 + 1)^2 == 0^2 + 1
-    True
-    >>> b1(4)                            # (4 + 1)^2 != 4^2 + 1
+0000000000000000000000000000    >>> b1(4)                            # (4 + 1)^2 != 4^2 + 1
     False
     """
     "*** YOUR CODE HERE ***"
