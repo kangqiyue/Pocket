@@ -47,5 +47,18 @@
         yml环境导入_2
         conda env update --name myenv --file environment.yml --prune
 
+## Miniconda 一键安装&配置国内源
 
+```
+#!/usr/bin/bash
+set -e
+wget "https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh" -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/.miniconda
+~/.miniconda/bin/conda init
+echo 'Successfully installed miniconda...'
+echo -n 'Conda version: '
+~/.miniconda/bin/conda --version
+echo -e '\n'
+exec bash
+```
 
